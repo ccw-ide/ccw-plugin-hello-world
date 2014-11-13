@@ -10,7 +10,7 @@ The `~/.ccw/` folder is where Counterclockwise searches for User Plugins.
 
 It is recommended to layout User Plugins inside this folder by mirroring Github's namespacing. So if you clone laurentpetit/ccw-plugin-hello-world, you should do the following:
 
-- Create a repository named `~/.ccw/laurentpetit/`
+- Create a folder named `~/.ccw/laurentpetit/`
 - Clone this project from `~/.ccw/laurentpetit/`
 
         mkdir -p ~/.ccw/laurentpetit
