@@ -31,6 +31,20 @@ If you haven't already, install ccw-plugin-manager (https://github.com/laurentpe
 
 Once ccw-plugin-manager is installed, you can type `Alt+U I` to import all user plugins as projects in your running Eclipse workspace.
 
+You will see the user plugins appear as projects in the 'Package Explorer View', and a 'Repl View'. The Repl view is connected to your running Eclipse instance. This Repl View is called the "embedded REPL". You can find it anytime by searching for the term "embedded" in the `Quick Search` input text in the Toolbar.
+
+This will allow you to live code User Plugins:
+
+- Open the `ccw-plugin-hello-world/hello-world.clj` file
+- Change the text of the hello world popup in the `greet` fn.
+- With the cursor still inside the `greet` fn, Type `Cmd+Enter` on OSX or `Ctrl+Enter` on Windows/Linux to send the whole top-level form (the `greet defn`) to the REPL.
+- Type `Alt+U H`: the popup that will appear should reflect your changes.
+
+## Uninstall
+
+To uninstall a User plugin, simply remove its directory. At the next Eclipse/Counterclockwise restart, it'll be gone.
+
+
 ## License
 
 Copyright © 2009-2015 Laurent Petit
