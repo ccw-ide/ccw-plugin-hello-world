@@ -2,10 +2,7 @@
   (:require [ccw.eclipse :as e]
             [ccw.e4.dsl :refer :all]))
 
-(defn greet [context] 
+(defcommand greeter "Hello World from Counterclockwise" "Alt+U H"
+  [context]
   (e/info-dialog 
     "Hello world from Counterclockwise" "This popup provided to you from a user script!"))
-
-(defcommand greeter "Hello World from Counterclockwise")
-(defhandler greeter greet)
-(defkeybinding greeter "Alt+U H")
