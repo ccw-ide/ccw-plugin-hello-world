@@ -8,16 +8,16 @@ This plugin's state is stable.
 
 The `~/.ccw/` folder is where Counterclockwise searches for User Plugins.
 
-It is recommended to layout User Plugins inside this folder by mirroring Github's namespacing. So if you clone laurentpetit/ccw-plugin-hello-world, you should do the following:
+It is recommended to layout User Plugins inside this folder by mirroring Github's namespacing. So if you clone ccw-ide/ccw-plugin-hello-world, you should do the following:
 
-- Create a folder named `~/.ccw/laurentpetit/`
-- Clone this project from `~/.ccw/laurentpetit/`
+- Create a folder named `~/.ccw/ccw-ide/`
+- Clone this project from `~/.ccw/ccw-ide/`
 
-        mkdir -p ~/.ccw/laurentpetit
-        cd ~/.ccw/laurentpetit
-        git clone https://github.com/laurentpetit/ccw-plugin-hello-world.git
+        mkdir -p ~/.ccw/ccw-ide
+        cd ~/.ccw/ccw-ide
+        git clone https://github.com/ccw-ide/ccw-plugin-hello-world.git
 
-- If you have already installed ccw-plugin-manager (https://github.com/laurentpetit/ccw-plugin-manager.git), then type `Alt+U S` to re[S]tart User Plugins (and thus ccw-plugin-hello-world will be found and loaded)
+- If you have already installed ccw-plugin-manager (https://github.com/ccw-ide/ccw-plugin-manager.git), then type `Alt+U S` to re[S]tart User Plugins (and thus ccw-plugin-hello-world will be found and loaded)
 - If you have not already installed ccw-plugin-manager, restart your Eclipse / Counterclockwise/Standalone instance.
 
 ## Usage
